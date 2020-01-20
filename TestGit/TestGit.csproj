@@ -48,6 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="PreBuiltbin\prebintesta" />
+    <None Include="PreBuiltbin\prebintestb" />
+    <None Include="PreBuiltbin\prebintestc" />
+    <None Include="PreBuiltbin\prebintestd" />
+    <None Include="PreBuiltbin\prebinteste" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -49,6 +49,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="PreBuiltbin\prebintesta" />
+    <None Include="PreBuiltbin\prebintesta.tar.gz" />
     <None Include="PreBuiltbin\prebintestb" />
     <None Include="PreBuiltbin\prebintestc" />
     <None Include="PreBuiltbin\prebintestd" />

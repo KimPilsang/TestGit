@@ -54,6 +54,7 @@
     <None Include="PreBuiltbin\prebintestc" />
     <None Include="PreBuiltbin\prebintestd" />
     <None Include="PreBuiltbin\prebinteste" />
+    <None Include="prebuiltlib.tgz" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGit", "TestGit\TestGit.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0F0D38A7-A830-4108-B9BC-A596B101786A}"
 	ProjectSection(SolutionItems) = preProject
-		TestGit\prebuiltlib.tgz = TestGit\prebuiltlib.tgz
+		TestGit\PreBuiltlib\prebuiltlib.tgz = TestGit\PreBuiltlib\prebuiltlib.tgz
 	EndProjectSection
 EndProject
 Global

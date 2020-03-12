@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGit", "TestGit\TestGit.csproj", "{E70C344A-6BA5-4FE8-8CB4-FF83579E0128}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0F0D38A7-A830-4108-B9BC-A596B101786A}"
-	ProjectSection(SolutionItems) = preProject
-		TestGit\PreBuiltlib\prebuiltlib.tgz = TestGit\PreBuiltlib\prebuiltlib.tgz
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -53,10 +53,14 @@
     <None Include="PreBuiltbin\prebintestc" />
     <None Include="PreBuiltbin\prebintestd" />
     <None Include="PreBuiltbin\prebinteste" />
-    <None Include="PreBuiltbin\prebuiltlib.tgz" />
+    <None Include="PreBuiltlib\TestLib.so" />
+    <None Include="PreBuiltlib\TestLib.so.0" />
+    <None Include="PreBuiltlib\TestLib.so.0.0.0" />
+    <None Include="Prebuiltlib_tgz\prebuiltlib.tgz" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="PreBuiltlib\" />
+    <Content Include="PreBuiltlib\TestLib_common.h" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

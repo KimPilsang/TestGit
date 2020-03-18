@@ -60,8 +60,8 @@
     <None Include="Prebuiltlib_tgz\prebuiltlib.tgz" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PreBuiltlib\TestLib_common.h" />
-    <Content Include="PreBuiltlib\TestLib_interface.h" />
+    <Content Include="PreBuiltlib_header\TestLib_common.h" />
+    <Content Include="PreBuiltlib_header\TestLib_interface.h" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

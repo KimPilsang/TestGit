@@ -50,8 +50,8 @@
     <None Include="App.config" />
     <None Include="lib_test\libdataservice_interface.a" />
     <None Include="lib_test\libdataservice_interface.so" />
-    <None Include="lib_test\libdataservice_interface.so.2" />
-    <None Include="lib_test\libdataservice_interface.so.2.0.0" />
+    <None Include="lib_test\libdataservice_interface.so.1" />
+    <None Include="lib_test\libdataservice_interface.so.1.0.0" />
     <None Include="PreBuiltbin\prebintesta" />
     <None Include="PreBuiltbin\prebintestb" />
     <None Include="PreBuiltbin\prebintestc" />

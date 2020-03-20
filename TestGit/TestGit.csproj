@@ -63,6 +63,14 @@
     <None Include="PreBuiltlib\TestLib_interface.so.1.0.0" />
     <None Include="Prebuiltlib_tgz\prebuiltlib.tgz" />
     <None Include="SDX55LE\dataril\bin\datarild" />
+    <None Include="SDX55LE\dataservice\bin\dataservice" />
+    <None Include="SDX55LE\gpsservice\bin\gpsservice" />
+    <None Include="SDX55LE\im\bin\lm" />
+    <None Include="SDX55LE\qcmapifservice\bin\qcmapifservice" />
+    <None Include="SDX55LE\radioservice\bin\radioservice" />
+    <None Include="SDX55LE\simservice\bin\simservice" />
+    <None Include="SDX55LE\systemserver\bin\systemserver" />
+    <None Include="SDX55LE\wmgr-config\bin\wmgr_config_test" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="lib_test_h\dataservice_common.h" />
@@ -74,12 +82,9 @@
     <Folder Include="SDX55LE\dataservice-interface\include\" />
     <Folder Include="SDX55LE\dataservice-interface\lib\" />
     <Folder Include="SDX55LE\dataservice-interface\share\" />
-    <Folder Include="SDX55LE\dataservice\bin\" />
     <Folder Include="SDX55LE\gpsservice-interface\include\" />
     <Folder Include="SDX55LE\gpsservice-interface\lib\" />
     <Folder Include="SDX55LE\gpsservice-interface\share\" />
-    <Folder Include="SDX55LE\gpsservice\bin\" />
-    <Folder Include="SDX55LE\im\bin\" />
     <Folder Include="SDX55LE\ozipc\bin\" />
     <Folder Include="SDX55LE\ozipc\include\" />
     <Folder Include="SDX55LE\ozipc\lib\" />
@@ -87,15 +92,11 @@
     <Folder Include="SDX55LE\qcmapifservice-interface\include\" />
     <Folder Include="SDX55LE\qcmapifservice-interface\lib\" />
     <Folder Include="SDX55LE\qcmapifservice-interface\share\" />
-    <Folder Include="SDX55LE\qcmapifservice\bin\" />
     <Folder Include="SDX55LE\radioservice-interface\include\" />
     <Folder Include="SDX55LE\radioservice-interface\lib\" />
-    <Folder Include="SDX55LE\radioservice\bin\" />
     <Folder Include="SDX55LE\simservice-interface\include\" />
     <Folder Include="SDX55LE\simservice-interface\lib\" />
     <Folder Include="SDX55LE\simservice-interface\share\" />
-    <Folder Include="SDX55LE\simservice\bin\" />
-    <Folder Include="SDX55LE\systemserver\bin\" />
     <Folder Include="SDX55LE\vss-common\include\" />
     <Folder Include="SDX55LE\vss-common\lib\" />
     <Folder Include="SDX55LE\vss-dmi\include\" />
@@ -104,7 +105,6 @@
     <Folder Include="SDX55LE\vss-nv\lib\" />
     <Folder Include="SDX55LE\vss-resim\include\" />
     <Folder Include="SDX55LE\vss-resim\lib\" />
-    <Folder Include="SDX55LE\wmgr-config\bin\" />
     <Folder Include="SDX55LE\wmgr-config\config\" />
     <Folder Include="SDX55LE\wmgr-config\ini\" />
     <Folder Include="SDX55LE\wmgr-config\lib\" />

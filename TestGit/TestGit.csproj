@@ -63,6 +63,11 @@
     <None Include="PreBuiltlib\TestLib_interface.so.1.0.0" />
     <None Include="Prebuiltlib_tgz\prebuiltlib.tgz" />
     <None Include="SDX55LE\dataril\bin\datarild" />
+    <None Include="SDX55LE\dataservice-interface\lib\libdataservice_interface.a" />
+    <None Include="SDX55LE\dataservice-interface\lib\libdataservice_interface.so" />
+    <None Include="SDX55LE\dataservice-interface\lib\libdataservice_interface.so.1" />
+    <None Include="SDX55LE\dataservice-interface\lib\libdataservice_interface.so.1.0.0" />
+    <None Include="SDX55LE\dataservice-interface\share\doc\dataservice-interface\README" />
     <None Include="SDX55LE\dataservice\bin\dataservice" />
     <None Include="SDX55LE\gpsservice\bin\gpsservice" />
     <None Include="SDX55LE\im\bin\lm" />
@@ -77,11 +82,10 @@
     <Content Include="lib_test_h\dataservice_interface.h" />
     <Content Include="PreBuiltlib_header\TestLib_common.h" />
     <Content Include="PreBuiltlib_header\TestLib_interface.h" />
+    <Content Include="SDX55LE\dataservice-interface\include\dataservice-interface\dataservice_common.h" />
+    <Content Include="SDX55LE\dataservice-interface\include\dataservice-interface\dataservice_interface.h" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="SDX55LE\dataservice-interface\include\" />
-    <Folder Include="SDX55LE\dataservice-interface\lib\" />
-    <Folder Include="SDX55LE\dataservice-interface\share\" />
     <Folder Include="SDX55LE\gpsservice-interface\include\" />
     <Folder Include="SDX55LE\gpsservice-interface\lib\" />
     <Folder Include="SDX55LE\gpsservice-interface\share\" />

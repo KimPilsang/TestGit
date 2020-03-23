@@ -71,7 +71,16 @@
     <None Include="SDX55LE\dataservice\bin\dataservice" />
     <None Include="SDX55LE\gpsservice\bin\gpsservice" />
     <None Include="SDX55LE\im\bin\lm" />
+    <None Include="SDX55LE\qcmapifservice-interface\lib\libqcmapifservice_interface.a" />
+    <None Include="SDX55LE\qcmapifservice-interface\lib\libqcmapifservice_interface.so" />
+    <None Include="SDX55LE\qcmapifservice-interface\lib\libqcmapifservice_interface.so.1" />
+    <None Include="SDX55LE\qcmapifservice-interface\lib\libqcmapifservice_interface.so.1.0.0" />
+    <None Include="SDX55LE\qcmapifservice-interface\share\README" />
     <None Include="SDX55LE\qcmapifservice\bin\qcmapifservice" />
+    <None Include="SDX55LE\radioservice-interface\lib\libradioservice_interface.a" />
+    <None Include="SDX55LE\radioservice-interface\lib\libradioservice_interface.so" />
+    <None Include="SDX55LE\radioservice-interface\lib\libradioservice_interface.so.1" />
+    <None Include="SDX55LE\radioservice-interface\lib\libradioservice_interface.so.1.0.0" />
     <None Include="SDX55LE\radioservice\bin\radioservice" />
     <None Include="SDX55LE\simservice\bin\simservice" />
     <None Include="SDX55LE\systemserver\bin\systemserver" />
@@ -84,6 +93,10 @@
     <Content Include="PreBuiltlib_header\TestLib_interface.h" />
     <Content Include="SDX55LE\dataservice-interface\include\dataservice-interface\dataservice_common.h" />
     <Content Include="SDX55LE\dataservice-interface\include\dataservice-interface\dataservice_interface.h" />
+    <Content Include="SDX55LE\qcmapifservice-interface\include\qcmapifservice_common.h" />
+    <Content Include="SDX55LE\qcmapifservice-interface\include\qcmapifservice_interface.h" />
+    <Content Include="SDX55LE\radioservice-interface\include\radioservice_common.h" />
+    <Content Include="SDX55LE\radioservice-interface\include\radioservice_interface.h" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SDX55LE\gpsservice-interface\include\" />
@@ -93,11 +106,6 @@
     <Folder Include="SDX55LE\ozipc\include\" />
     <Folder Include="SDX55LE\ozipc\lib\" />
     <Folder Include="SDX55LE\ozipc\share\" />
-    <Folder Include="SDX55LE\qcmapifservice-interface\include\" />
-    <Folder Include="SDX55LE\qcmapifservice-interface\lib\" />
-    <Folder Include="SDX55LE\qcmapifservice-interface\share\" />
-    <Folder Include="SDX55LE\radioservice-interface\include\" />
-    <Folder Include="SDX55LE\radioservice-interface\lib\" />
     <Folder Include="SDX55LE\simservice-interface\include\" />
     <Folder Include="SDX55LE\simservice-interface\lib\" />
     <Folder Include="SDX55LE\simservice-interface\share\" />

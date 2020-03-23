@@ -93,10 +93,10 @@
     <Content Include="PreBuiltlib_header\TestLib_interface.h" />
     <Content Include="SDX55LE\dataservice-interface\include\dataservice-interface\dataservice_common.h" />
     <Content Include="SDX55LE\dataservice-interface\include\dataservice-interface\dataservice_interface.h" />
-    <Content Include="SDX55LE\qcmapifservice-interface\include\qcmapifservice_common.h" />
-    <Content Include="SDX55LE\qcmapifservice-interface\include\qcmapifservice_interface.h" />
-    <Content Include="SDX55LE\radioservice-interface\include\radioservice_common.h" />
-    <Content Include="SDX55LE\radioservice-interface\include\radioservice_interface.h" />
+    <Content Include="SDX55LE\qcmapifservice-interface\include\qcmapifservice-interface\qcmapifservice_common.h" />
+    <Content Include="SDX55LE\qcmapifservice-interface\include\qcmapifservice-interface\qcmapifservice_interface.h" />
+    <Content Include="SDX55LE\radioservice-interface\include\radioservice-interface\radioservice_common.h" />
+    <Content Include="SDX55LE\radioservice-interface\include\radioservice-interface\radioservice_interface.h" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SDX55LE\gpsservice-interface\include\" />
@@ -106,7 +106,7 @@
     <Folder Include="SDX55LE\ozipc\include\" />
     <Folder Include="SDX55LE\ozipc\lib\" />
     <Folder Include="SDX55LE\ozipc\share\" />
-    <Folder Include="SDX55LE\simservice-interface\include\" />
+    <Folder Include="SDX55LE\simservice-interface\include\simservice-interface\" />
     <Folder Include="SDX55LE\simservice-interface\lib\" />
     <Folder Include="SDX55LE\simservice-interface\share\" />
     <Folder Include="SDX55LE\vss-common\include\" />

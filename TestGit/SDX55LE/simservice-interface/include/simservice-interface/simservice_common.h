@@ -1,0 +1,31 @@
+#pragma once
+
+#include "oz_interface.h"
+
+#define SIM_SOCKET_PATH "/tmp/socket_simservice_interface"
+
+#define OZ_SIMSERVICE_GET_MCC_MNC    1000
+#define OZ_SIMSERVICE_GET_GID        1001
+#define OZ_SIMSERVICE_GET_IMSI       1002
+#define OZ_SIMSERVICE_GET_ICCID      1003
+#define OZ_SIMSERVICE_GET_MSISDN     1004
+#define OZ_SIMSERVICE_GET_STATE      1005
+#define OZ_SIMSERVICE_SET_ACTIVATION 1006
+#define OZ_SIMSERVICE_GET_STATUS     1007
+#define OZ_SIMSERVICE_GET_PINBLOCKTRYCNT  1008
+#define OZ_SIMSERVICE_SET_PINENABLE  1009
+#define OZ_SIMSERVICE_ISVERIFY       1010
+#define OZ_SIMSERVICE_CHANGEPINCODE  1011
+#define OZ_SIMSERVICE_UNBLOCKPUKCODE 1012
+
+#define OZ_SIMSERVICE_STATE_CHANGED 1020
+
+
+#define IMSI_MAX_LENGTH 15
+#define MCC_MNC_MAX_LENGTH 6
+#define GID_MAX_LENGTH 16
+#define ICCID_MAX_LENGTH 20
+#define MSISDN_STR_LEN_MAX    (10*2 + 1)
+#define MSISDN_NONALPHA_LEN   14
+void oz_simservice_rpc_handler(const void* hChHandle, int aReq, RES_OBJ aInObj, REQ_OBJ aOutObj);
+

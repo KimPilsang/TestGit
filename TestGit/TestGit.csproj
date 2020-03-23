@@ -82,6 +82,11 @@
     <None Include="SDX55LE\radioservice-interface\lib\libradioservice_interface.so.1" />
     <None Include="SDX55LE\radioservice-interface\lib\libradioservice_interface.so.1.0.0" />
     <None Include="SDX55LE\radioservice\bin\radioservice" />
+    <None Include="SDX55LE\simservice-interface\lib\libsimservice_interface.a" />
+    <None Include="SDX55LE\simservice-interface\lib\libsimservice_interface.so" />
+    <None Include="SDX55LE\simservice-interface\lib\libsimservice_interface.so.1" />
+    <None Include="SDX55LE\simservice-interface\lib\libsimservice_interface.so.1.0.0" />
+    <None Include="SDX55LE\simservice-interface\share\doc\simservice-interface\README" />
     <None Include="SDX55LE\simservice\bin\simservice" />
     <None Include="SDX55LE\systemserver\bin\systemserver" />
     <None Include="SDX55LE\wmgr-config\bin\wmgr_config_test" />
@@ -97,6 +102,8 @@
     <Content Include="SDX55LE\qcmapifservice-interface\include\qcmapifservice-interface\qcmapifservice_interface.h" />
     <Content Include="SDX55LE\radioservice-interface\include\radioservice-interface\radioservice_common.h" />
     <Content Include="SDX55LE\radioservice-interface\include\radioservice-interface\radioservice_interface.h" />
+    <Content Include="SDX55LE\simservice-interface\include\simservice-interface\simservice_common.h" />
+    <Content Include="SDX55LE\simservice-interface\include\simservice-interface\simservice_interface.h" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SDX55LE\gpsservice-interface\include\" />
@@ -106,9 +113,6 @@
     <Folder Include="SDX55LE\ozipc\include\" />
     <Folder Include="SDX55LE\ozipc\lib\" />
     <Folder Include="SDX55LE\ozipc\share\" />
-    <Folder Include="SDX55LE\simservice-interface\include\simservice-interface\" />
-    <Folder Include="SDX55LE\simservice-interface\lib\" />
-    <Folder Include="SDX55LE\simservice-interface\share\" />
     <Folder Include="SDX55LE\vss-common\include\" />
     <Folder Include="SDX55LE\vss-common\lib\" />
     <Folder Include="SDX55LE\vss-dmi\include\" />

@@ -105,6 +105,11 @@
     <None Include="SDX55LE\simservice-interface\share\doc\simservice-interface\README" />
     <None Include="SDX55LE\simservice\bin\simservice" />
     <None Include="SDX55LE\systemserver\bin\systemserver" />
+    <None Include="SDX55LE\vss-common\lib\libvsscore.a" />
+    <None Include="SDX55LE\vss-common\lib\libvsscore.so" />
+    <None Include="SDX55LE\vss-common\lib\libvsscore.so.1" />
+    <None Include="SDX55LE\vss-common\lib\libvsscore.so.1.0.0" />
+    <None Include="SDX55LE\vss-common\lib\pkgconfig\vss-common.pc" />
     <None Include="SDX55LE\wmgr-config\bin\wmgr_config_test" />
   </ItemGroup>
   <ItemGroup>
@@ -124,13 +129,12 @@
     <Content Include="SDX55LE\radioservice-interface\include\radioservice-interface\radioservice_interface.h" />
     <Content Include="SDX55LE\simservice-interface\include\simservice-interface\simservice_common.h" />
     <Content Include="SDX55LE\simservice-interface\include\simservice-interface\simservice_interface.h" />
+    <Content Include="SDX55LE\vss-common\include\vss-common\lge_vss_qcci_core.h" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SDX55LE\gpsservice-interface\include\" />
     <Folder Include="SDX55LE\gpsservice-interface\lib\" />
     <Folder Include="SDX55LE\gpsservice-interface\share\" />
-    <Folder Include="SDX55LE\vss-common\include\" />
-    <Folder Include="SDX55LE\vss-common\lib\" />
     <Folder Include="SDX55LE\vss-dmi\include\" />
     <Folder Include="SDX55LE\vss-dmi\lib\" />
     <Folder Include="SDX55LE\vss-nv\include\" />

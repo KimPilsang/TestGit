@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: vss-common
+Description: vss-common library
+Version: 1.0
+Libs: -L${libdir} -lvsscore
+Cflags: -I${includedir}/vss-common

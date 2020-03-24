@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: vss-dmi
+Description: vss-dmi library
+Version: 1.0
+Libs: -L${libdir} -ldmicore
+Cflags: -I${includedir}/vss-dmi

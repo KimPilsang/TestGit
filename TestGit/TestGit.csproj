@@ -110,6 +110,21 @@
     <None Include="SDX55LE\vss-common\lib\libvsscore.so.1" />
     <None Include="SDX55LE\vss-common\lib\libvsscore.so.1.0.0" />
     <None Include="SDX55LE\vss-common\lib\pkgconfig\vss-common.pc" />
+    <None Include="SDX55LE\vss-dmi\lib\libdmicore.a" />
+    <None Include="SDX55LE\vss-dmi\lib\libdmicore.so" />
+    <None Include="SDX55LE\vss-dmi\lib\libdmicore.so.1" />
+    <None Include="SDX55LE\vss-dmi\lib\libdmicore.so.1.0.0" />
+    <None Include="SDX55LE\vss-dmi\lib\pkgconfig\vss-dmi.pc" />
+    <None Include="SDX55LE\vss-nv\lib\libnvcore.a" />
+    <None Include="SDX55LE\vss-nv\lib\libnvcore.so" />
+    <None Include="SDX55LE\vss-nv\lib\libnvcore.so.1" />
+    <None Include="SDX55LE\vss-nv\lib\libnvcore.so.1.0.0" />
+    <None Include="SDX55LE\vss-nv\lib\pkgconfig\vss-nv.pc" />
+    <None Include="SDX55LE\vss-resim\lib\libresimcore.a" />
+    <None Include="SDX55LE\vss-resim\lib\libresimcore.so" />
+    <None Include="SDX55LE\vss-resim\lib\libresimcore.so.1" />
+    <None Include="SDX55LE\vss-resim\lib\libresimcore.so.1.0.0" />
+    <None Include="SDX55LE\vss-resim\lib\pkgconfig\vss-resim.pc" />
     <None Include="SDX55LE\wmgr-config\bin\wmgr_config_test" />
   </ItemGroup>
   <ItemGroup>
@@ -130,20 +145,24 @@
     <Content Include="SDX55LE\simservice-interface\include\simservice-interface\simservice_common.h" />
     <Content Include="SDX55LE\simservice-interface\include\simservice-interface\simservice_interface.h" />
     <Content Include="SDX55LE\vss-common\include\vss-common\lge_vss_qcci_core.h" />
+    <Content Include="SDX55LE\vss-dmi\include\vss-dmi\lge_dmi_qcci_core.h" />
+    <Content Include="SDX55LE\vss-dmi\include\vss-dmi\lge_dmi_qcci_iface.h" />
+    <Content Include="SDX55LE\vss-dmi\include\vss-dmi\lge_dmi_service_v02.h" />
+    <Content Include="SDX55LE\vss-dmi\include\vss-dmi\lge_qmi_client_data.h" />
+    <Content Include="SDX55LE\vss-nv\include\vss-nv\lge_nv_qcci_core.h" />
+    <Content Include="SDX55LE\vss-nv\include\vss-nv\lge_nv_qcci_iface.h" />
+    <Content Include="SDX55LE\vss-nv\include\vss-nv\vendor_service_nv_v02.h" />
+    <Content Include="SDX55LE\vss-resim\include\vss-resim\lge_resim_qcci_core.h" />
+    <Content Include="SDX55LE\vss-resim\include\vss-resim\lge_resim_qcci_iface.h" />
+    <Content Include="SDX55LE\vss-resim\include\vss-resim\lge_resim_service_v02.h" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SDX55LE\gpsservice-interface\include\" />
     <Folder Include="SDX55LE\gpsservice-interface\lib\" />
     <Folder Include="SDX55LE\gpsservice-interface\share\" />
-    <Folder Include="SDX55LE\vss-dmi\include\" />
-    <Folder Include="SDX55LE\vss-dmi\lib\" />
-    <Folder Include="SDX55LE\vss-nv\include\" />
-    <Folder Include="SDX55LE\vss-nv\lib\" />
-    <Folder Include="SDX55LE\vss-resim\include\" />
-    <Folder Include="SDX55LE\vss-resim\lib\" />
     <Folder Include="SDX55LE\wmgr-config\config\" />
     <Folder Include="SDX55LE\wmgr-config\ini\" />
-    <Folder Include="SDX55LE\wmgr-config\lib\" />
+    <Folder Include="SDX55LE\wmgr-config\lib\pkgconfig\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

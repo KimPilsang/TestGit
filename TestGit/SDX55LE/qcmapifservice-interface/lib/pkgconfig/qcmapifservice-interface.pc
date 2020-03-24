@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: qcmapifservice-interface
+Description: qcmapifservice interface library
+Version: 1.0
+Libs: -L${libdir} -lqcmapifservice_interface
+Cflags: -I${includedir}/qcmapifservice-interface

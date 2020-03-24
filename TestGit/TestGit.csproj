@@ -75,6 +75,7 @@
     <None Include="SDX55LE\qcmapifservice-interface\lib\libqcmapifservice_interface.so" />
     <None Include="SDX55LE\qcmapifservice-interface\lib\libqcmapifservice_interface.so.1" />
     <None Include="SDX55LE\qcmapifservice-interface\lib\libqcmapifservice_interface.so.1.0.0" />
+    <None Include="SDX55LE\qcmapifservice-interface\lib\pkgconfig\qcmapifservice-interface.pc" />
     <None Include="SDX55LE\qcmapifservice-interface\share\README" />
     <None Include="SDX55LE\qcmapifservice\bin\qcmapifservice" />
     <None Include="SDX55LE\radioservice-interface\lib\libradioservice_interface.a" />

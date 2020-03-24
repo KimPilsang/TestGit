@@ -115,6 +115,11 @@
     <None Include="SDX55LE\vss-dmi\lib\libdmicore.so.1" />
     <None Include="SDX55LE\vss-dmi\lib\libdmicore.so.1.0.0" />
     <None Include="SDX55LE\vss-dmi\lib\pkgconfig\vss-dmi.pc" />
+    <None Include="SDX55LE\vss-gnss\lib\libgnsscore.a" />
+    <None Include="SDX55LE\vss-gnss\lib\libgnsscore.so" />
+    <None Include="SDX55LE\vss-gnss\lib\libgnsscore.so.1" />
+    <None Include="SDX55LE\vss-gnss\lib\libgnsscore.so.1.0.0" />
+    <None Include="SDX55LE\vss-gnss\lib\pkgconfig\vss-gnss.pc" />
     <None Include="SDX55LE\vss-nv\lib\libnvcore.a" />
     <None Include="SDX55LE\vss-nv\lib\libnvcore.so" />
     <None Include="SDX55LE\vss-nv\lib\libnvcore.so.1" />
@@ -149,6 +154,9 @@
     <Content Include="SDX55LE\vss-dmi\include\vss-dmi\lge_dmi_qcci_iface.h" />
     <Content Include="SDX55LE\vss-dmi\include\vss-dmi\lge_dmi_service_v02.h" />
     <Content Include="SDX55LE\vss-dmi\include\vss-dmi\lge_qmi_client_data.h" />
+    <Content Include="SDX55LE\vss-gnss\include\vss-gnss\lge_gnss_qcci_core.h" />
+    <Content Include="SDX55LE\vss-gnss\include\vss-gnss\lge_gnss_qcci_iface.h" />
+    <Content Include="SDX55LE\vss-gnss\include\vss-gnss\lge_gnss_service_v02.h" />
     <Content Include="SDX55LE\vss-nv\include\vss-nv\lge_nv_qcci_core.h" />
     <Content Include="SDX55LE\vss-nv\include\vss-nv\lge_nv_qcci_iface.h" />
     <Content Include="SDX55LE\vss-nv\include\vss-nv\vendor_service_nv_v02.h" />

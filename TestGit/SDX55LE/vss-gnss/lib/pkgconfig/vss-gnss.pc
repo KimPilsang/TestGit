@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: vss-gnss
+Description: vss-gnss library
+Version: 1.0
+Libs: -L${libdir} -lgnsscore
+Cflags: -I${includedir}/vss-gnss

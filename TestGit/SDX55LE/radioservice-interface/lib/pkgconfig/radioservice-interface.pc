@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: radioservice-interface
+Description: radioservice interface library
+Version: 1.0
+Libs: -L${libdir} -lradioservice_interface
+Cflags: -I${includedir}/radioservice-interface

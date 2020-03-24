@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: simservice-interface
+Description: simservice interface library
+Version: 1.0
+Libs: -L${libdir} -lsimservice_interface
+Cflags: -I${includedir}/simservice-interface

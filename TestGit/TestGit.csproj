@@ -145,7 +145,49 @@
     <None Include="SDX55LE\vss-resim\lib\libresimcore.so.1" />
     <None Include="SDX55LE\vss-resim\lib\libresimcore.so.1.0.0" />
     <None Include="SDX55LE\vss-resim\lib\pkgconfig\vss-resim.pc" />
-    <None Include="SDX55LE\wmgr-config\bin\wmgr_config_test" />
+    <None Include="SDX55LE\wmgr-config\etc\hostapd_default.conf" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\acs_setting_all.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\allow_mac_address_all.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\band_width_2GHz.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\band_width_5GHz.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\bdwlan20_GTxDisable.bin" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\bdwlan20_GTxEnable.bin" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\channel_2G.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\channel_5G.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\country_code.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\deny_mac_address_all.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\drv_log_setiing.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\dtim_ap1.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\dtim_ap2.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\empty_beacon_ap1.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\empty_beacon_ap2.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\enable_2_4ghz.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\enable_5ghz.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\enable_5ghz_preffered.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\enable_mac_filter.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\freq_band.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\ieee_802_11_mode_2GHz.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\ieee_802_11_mode_5GHz.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\ignore_cac.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\isolation_ap1.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\isolation_ap2.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\key_update_cycle_ap1.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\key_update_cycle_ap2.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\mac_filter_type.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\max_num_sta_ap1.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\max_num_sta_ap2.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\mimo_all.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\ota_setting.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\password_ap1.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\password_ap2.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\privacy_separator_all.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\security_ap1.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\security_ap2.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\smart_wifi_all.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\ssid_ap1.ini" />
+    <None Include="SDX55LE\wmgr-config\etc\wifi\ssid_ap2.ini" />
+    <None Include="SDX55LE\wmgr-config\usr\bin\wmgr_config_test" />
+    <None Include="SDX55LE\wmgr-config\usr\lib\libwmgr-config.so" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="lib_test_h\dataservice_common.h" />
@@ -190,10 +232,6 @@
     <Content Include="SDX55LE\vss-resim\include\vss-resim\lge_resim_qcci_iface.h" />
     <Content Include="SDX55LE\vss-resim\include\vss-resim\lge_resim_service_v02.h" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SDX55LE\wmgr-config\config\" />
-    <Folder Include="SDX55LE\wmgr-config\ini\" />
-    <Folder Include="SDX55LE\wmgr-config\lib\pkgconfig\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

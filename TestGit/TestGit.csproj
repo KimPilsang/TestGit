@@ -70,6 +70,18 @@
     <None Include="SDX55LE\dataservice-interface\lib\pkgconfig\dataservice-interface.pc" />
     <None Include="SDX55LE\dataservice-interface\share\doc\dataservice-interface\README" />
     <None Include="SDX55LE\dataservice\bin\dataservice" />
+    <None Include="SDX55LE\gpsservice-api\lib\libgpsservice_api.a" />
+    <None Include="SDX55LE\gpsservice-api\lib\libgpsservice_api.so" />
+    <None Include="SDX55LE\gpsservice-api\lib\libgpsservice_api.so.1" />
+    <None Include="SDX55LE\gpsservice-api\lib\libgpsservice_api.so.1.0.0" />
+    <None Include="SDX55LE\gpsservice-api\lib\pkgconfig\gpsservice-api.pc" />
+    <None Include="SDX55LE\gpsservice-api\share\doc\gpsservice-api\README" />
+    <None Include="SDX55LE\gpsservice-interface\lib\libgpsservice_interface.a" />
+    <None Include="SDX55LE\gpsservice-interface\lib\libgpsservice_interface.so" />
+    <None Include="SDX55LE\gpsservice-interface\lib\libgpsservice_interface.so.1" />
+    <None Include="SDX55LE\gpsservice-interface\lib\libgpsservice_interface.so.1.0.0" />
+    <None Include="SDX55LE\gpsservice-interface\lib\pkgconfig\gpsservice-interface.pc" />
+    <None Include="SDX55LE\gpsservice-interface\share\doc\gpsservice-interface\README" />
     <None Include="SDX55LE\gpsservice\bin\gpsservice" />
     <None Include="SDX55LE\im\bin\lm" />
     <None Include="SDX55LE\ozipc\bin\ozipc_sample_client" />
@@ -89,13 +101,14 @@
     <None Include="SDX55LE\qcmapifservice-interface\lib\libqcmapifservice_interface.so.1" />
     <None Include="SDX55LE\qcmapifservice-interface\lib\libqcmapifservice_interface.so.1.0.0" />
     <None Include="SDX55LE\qcmapifservice-interface\lib\pkgconfig\qcmapifservice-interface.pc" />
-    <None Include="SDX55LE\qcmapifservice-interface\share\README" />
+    <None Include="SDX55LE\qcmapifservice-interface\share\qcmapifservice-interface\README" />
     <None Include="SDX55LE\qcmapifservice\bin\qcmapifservice" />
     <None Include="SDX55LE\radioservice-interface\lib\libradioservice_interface.a" />
     <None Include="SDX55LE\radioservice-interface\lib\libradioservice_interface.so" />
     <None Include="SDX55LE\radioservice-interface\lib\libradioservice_interface.so.1" />
     <None Include="SDX55LE\radioservice-interface\lib\libradioservice_interface.so.1.0.0" />
     <None Include="SDX55LE\radioservice-interface\lib\pkgconfig\radioservice-interface.pc" />
+    <None Include="SDX55LE\radioservice-interface\share\doc\radioservice-interface\README" />
     <None Include="SDX55LE\radioservice\bin\radioservice" />
     <None Include="SDX55LE\simservice-interface\lib\libsimservice_interface.a" />
     <None Include="SDX55LE\simservice-interface\lib\libsimservice_interface.so" />
@@ -139,6 +152,17 @@
     <Content Include="PreBuiltlib_header\TestLib_interface.h" />
     <Content Include="SDX55LE\dataservice-interface\include\dataservice-interface\dataservice_common.h" />
     <Content Include="SDX55LE\dataservice-interface\include\dataservice-interface\dataservice_interface.h" />
+    <Content Include="SDX55LE\gpsservice-api\include\gpsservice-api\ApiLocTimer.h" />
+    <Content Include="SDX55LE\gpsservice-api\include\gpsservice-api\ApiUtil.h" />
+    <Content Include="SDX55LE\gpsservice-api\include\gpsservice-api\FlpLocationAPIClient.h" />
+    <Content Include="SDX55LE\gpsservice-api\include\gpsservice-api\GeofenceLocationAPIClient.h" />
+    <Content Include="SDX55LE\gpsservice-api\include\gpsservice-api\GnssCbBase.h" />
+    <Content Include="SDX55LE\gpsservice-api\include\gpsservice-api\GnssLocationAPI.h" />
+    <Content Include="SDX55LE\gpsservice-api\include\gpsservice-api\GnssLocationAPIClient.h" />
+    <Content Include="SDX55LE\gpsservice-api\include\gpsservice-api\IGnssAPI.h" />
+    <Content Include="SDX55LE\gpsservice-api\include\gpsservice-api\LogUtil.h" />
+    <Content Include="SDX55LE\gpsservice-interface\include\gpsservice_common.h" />
+    <Content Include="SDX55LE\gpsservice-interface\include\gpsservice_interface.h" />
     <Content Include="SDX55LE\ozipc\include\ozipc\oz_common.h" />
     <Content Include="SDX55LE\ozipc\include\ozipc\oz_event_timer.h" />
     <Content Include="SDX55LE\ozipc\include\ozipc\oz_interface.h" />
@@ -165,9 +189,6 @@
     <Content Include="SDX55LE\vss-resim\include\vss-resim\lge_resim_service_v02.h" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="SDX55LE\gpsservice-interface\include\" />
-    <Folder Include="SDX55LE\gpsservice-interface\lib\" />
-    <Folder Include="SDX55LE\gpsservice-interface\share\" />
     <Folder Include="SDX55LE\wmgr-config\config\" />
     <Folder Include="SDX55LE\wmgr-config\ini\" />
     <Folder Include="SDX55LE\wmgr-config\lib\pkgconfig\" />

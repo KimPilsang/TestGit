@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: gpsservice-interface
+Description: gpsservice interface library
+Version: 1.0
+Libs: -L${libdir} -lgpsservice_interface
+Cflags: -I${includedir}/gpsservice-interface

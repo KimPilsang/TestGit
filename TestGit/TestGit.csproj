@@ -83,6 +83,8 @@
     <None Include="SDX55LE\gpsservice-interface\lib\pkgconfig\gpsservice-interface.pc" />
     <None Include="SDX55LE\gpsservice-interface\share\doc\gpsservice-interface\README" />
     <None Include="SDX55LE\gpsservice\bin\gpsservice" />
+    <None Include="SDX55LE\gpsservice\etc\gps.conf" />
+    <None Include="SDX55LE\gpsservice\etc\izat.conf" />
     <None Include="SDX55LE\im\bin\lm" />
     <None Include="SDX55LE\ozipc\bin\ozipc_sample_client" />
     <None Include="SDX55LE\ozipc\bin\ozipc_sample_server" />

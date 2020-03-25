@@ -163,8 +163,8 @@
     <Content Include="SDX55LE\gpsservice-api\include\gpsservice-api\GnssLocationAPIClient.h" />
     <Content Include="SDX55LE\gpsservice-api\include\gpsservice-api\IGnssAPI.h" />
     <Content Include="SDX55LE\gpsservice-api\include\gpsservice-api\LogUtil.h" />
-    <Content Include="SDX55LE\gpsservice-interface\include\gpsservice_common.h" />
-    <Content Include="SDX55LE\gpsservice-interface\include\gpsservice_interface.h" />
+    <Content Include="SDX55LE\gpsservice-interface\include\gpsservice-interface\gpsservice_common.h" />
+    <Content Include="SDX55LE\gpsservice-interface\include\gpsservice-interface\gpsservice_interface.h" />
     <Content Include="SDX55LE\ozipc\include\ozipc\oz_common.h" />
     <Content Include="SDX55LE\ozipc\include\ozipc\oz_event_timer.h" />
     <Content Include="SDX55LE\ozipc\include\ozipc\oz_interface.h" />

@@ -1,0 +1,11 @@
+[Unit]
+SourcePath=/usr/bin/systemserver
+Description= systemserver service
+After= qtid.service
+
+[Service]
+ExecStart=/usr/bin/systemserver
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

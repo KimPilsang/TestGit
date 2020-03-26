@@ -218,7 +218,7 @@
     <Content Include="SDX55LE\loc-glue\usr\include\loc-glue\OSFramework.h" />
     <Content Include="SDX55LE\loc-glue\usr\include\loc-glue\OsNpGlue.h" />
     <Content Include="SDX55LE\loc-glue\usr\include\loc-glue\Subscription.h" />
-    <Content Include="SDX55LE\location-flp\usr\include\fused_location_extended.h" />
+    <Content Include="SDX55LE\location-flp\usr\include\location-flp\fused_location_extended.h" />
     <Content Include="SDX55LE\ozipc\include\ozipc\oz_common.h" />
     <Content Include="SDX55LE\ozipc\include\ozipc\oz_event_timer.h" />
     <Content Include="SDX55LE\ozipc\include\ozipc\oz_interface.h" />
@@ -244,8 +244,6 @@
     <Content Include="SDX55LE\vss-resim\include\vss-resim\lge_resim_qcci_iface.h" />
     <Content Include="SDX55LE\vss-resim\include\vss-resim\lge_resim_service_v02.h" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SDX55LE\location-flp\usr\include\location-flp\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

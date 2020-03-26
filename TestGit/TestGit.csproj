@@ -86,6 +86,13 @@
     <None Include="SDX55LE\gpsservice\etc\gps.conf" />
     <None Include="SDX55LE\gpsservice\etc\izat.conf" />
     <None Include="SDX55LE\im\bin\lm" />
+    <None Include="SDX55LE\loc-glue\usr\lib\liblocationservice_glue.so" />
+    <None Include="SDX55LE\loc-glue\usr\lib\liblocationservice_glue.so.1" />
+    <None Include="SDX55LE\loc-glue\usr\lib\liblocationservice_glue.so.1.0.0" />
+    <None Include="SDX55LE\loc-glue\usr\lib\pkgconfig\loc-glue.pc" />
+    <None Include="SDX55LE\location-flp\etc\flp.conf" />
+    <None Include="SDX55LE\location-flp\usr\lib\libflp.so" />
+    <None Include="SDX55LE\location-flp\usr\lib\pkgconfig\location-flp.pc" />
     <None Include="SDX55LE\ozipc\bin\ozipc_sample_client" />
     <None Include="SDX55LE\ozipc\bin\ozipc_sample_server" />
     <None Include="SDX55LE\ozipc\lib\libozipc.a" />
@@ -207,6 +214,11 @@
     <Content Include="SDX55LE\gpsservice-api\include\gpsservice-api\LogUtil.h" />
     <Content Include="SDX55LE\gpsservice-interface\include\gpsservice-interface\gpsservice_common.h" />
     <Content Include="SDX55LE\gpsservice-interface\include\gpsservice-interface\gpsservice_interface.h" />
+    <Content Include="SDX55LE\loc-glue\usr\include\loc-glue\FrameworkActionRequest.h" />
+    <Content Include="SDX55LE\loc-glue\usr\include\loc-glue\OSFramework.h" />
+    <Content Include="SDX55LE\loc-glue\usr\include\loc-glue\OsNpGlue.h" />
+    <Content Include="SDX55LE\loc-glue\usr\include\loc-glue\Subscription.h" />
+    <Content Include="SDX55LE\location-flp\usr\include\fused_location_extended.h" />
     <Content Include="SDX55LE\ozipc\include\ozipc\oz_common.h" />
     <Content Include="SDX55LE\ozipc\include\ozipc\oz_event_timer.h" />
     <Content Include="SDX55LE\ozipc\include\ozipc\oz_interface.h" />
@@ -232,6 +244,8 @@
     <Content Include="SDX55LE\vss-resim\include\vss-resim\lge_resim_qcci_iface.h" />
     <Content Include="SDX55LE\vss-resim\include\vss-resim\lge_resim_service_v02.h" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="SDX55LE\location-flp\usr\include\location-flp\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -121,7 +121,7 @@
     <None Include="SDX55LE\radioservice-interface\usr\lib\libradioservice_interface.so.1.0.0" />
     <None Include="SDX55LE\radioservice-interface\usr\lib\pkgconfig\radioservice-interface.pc" />
     <None Include="SDX55LE\radioservice-interface\usr\share\doc\radioservice-interface\README" />
-    <None Include="SDX55LE\radioservice\bin\radioservice" />
+    <None Include="SDX55LE\radioservice\usr\bin\radioservice" />
     <None Include="SDX55LE\simservice-interface\usr\lib\libsimservice_interface.a" />
     <None Include="SDX55LE\simservice-interface\usr\lib\libsimservice_interface.so" />
     <None Include="SDX55LE\simservice-interface\usr\lib\libsimservice_interface.so.1" />
